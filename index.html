@@ -7,11 +7,11 @@
   <title>onesadlittleboy github page</title>
   <style>
     :root {
-      --bg: #050505;
-      --fg: #d9ffe7;
-      --accent: #39ff14;
-      --accent-alt: #0fffc1;
-      --text-muted: #8bd8a5;
+      --bg: #06020d;
+      --fg: #f7e9ff;
+      --accent: #d946ff;
+      --accent-alt: #ff71d3;
+      --text-muted: #c7a3ff;
       --max-width: 960px;
     }
 
@@ -26,8 +26,8 @@
       display: flex;
       align-items: center;
       justify-content: center;
-      background: radial-gradient(circle at top, rgba(57, 255, 20, 0.12), transparent 55%),
-        radial-gradient(circle at bottom, rgba(0, 255, 204, 0.09), transparent 60%),
+      background: radial-gradient(circle at top, rgba(217, 70, 255, 0.14), transparent 55%),
+        radial-gradient(circle at bottom, rgba(255, 113, 211, 0.1), transparent 60%),
         var(--bg);
       color: var(--fg);
       font-family: "JetBrains Mono", "Fira Code", "Consolas", "Courier New", monospace;
@@ -39,11 +39,11 @@
       width: 100%;
       max-width: var(--max-width);
       padding: 3.25rem 2.25rem;
-      border: 1px solid rgba(57, 255, 20, 0.25);
+      border: 1px solid rgba(217, 70, 255, 0.25);
       background: rgba(5, 5, 5, 0.7);
       backdrop-filter: blur(6px);
       border-radius: 24px;
-      box-shadow: 0 0 40px rgba(0, 255, 153, 0.12);
+      box-shadow: 0 0 40px rgba(157, 107, 255, 0.2);
     }
 
     .hero {
@@ -59,8 +59,8 @@
       padding: 1rem 1.25rem 1.5rem;
       border-radius: 18px;
       background: rgba(5, 5, 5, 0.45);
-      border: 1px solid rgba(57, 255, 20, 0.35);
-      box-shadow: 0 0 20px rgba(57, 255, 20, 0.18);
+      border: 1px solid rgba(217, 70, 255, 0.35);
+      box-shadow: 0 0 20px rgba(217, 70, 255, 0.2);
       animation: pulse 6s ease-in-out infinite;
       overflow: hidden;
     }
@@ -70,7 +70,7 @@
       font-size: clamp(0.4rem, 1.45vw, 0.78rem);
       line-height: 1.05;
       color: var(--accent);
-      text-shadow: 0 0 12px rgba(57, 255, 20, 0.9), 0 0 30px rgba(57, 255, 20, 0.4);
+      text-shadow: 0 0 12px rgba(217, 70, 255, 0.9), 0 0 30px rgba(217, 70, 255, 0.45);
       animation: glow 6s linear infinite;
       white-space: pre;
       overflow: auto;
@@ -83,11 +83,11 @@
     }
 
     .ascii-art::-webkit-scrollbar-track {
-      background: rgba(57, 255, 20, 0.08);
+      background: rgba(217, 70, 255, 0.12);
     }
 
     .ascii-art::-webkit-scrollbar-thumb {
-      background: rgba(0, 255, 204, 0.65);
+      background: rgba(255, 113, 211, 0.7);
       border-radius: 999px;
     }
 
@@ -100,7 +100,7 @@
       font-weight: 600;
       letter-spacing: 0.12em;
       color: var(--accent);
-      text-shadow: 0 0 8px currentColor, 0 0 16px rgba(57, 255, 20, 0.8);
+      text-shadow: 0 0 8px currentColor, 0 0 16px rgba(217, 70, 255, 0.75);
       animation: appleGlow 4.5s linear infinite;
       pointer-events: none;
     }
@@ -153,7 +153,7 @@
       letter-spacing: 0.16em;
       font-size: 0.9rem;
       transition: transform 0.2s ease, box-shadow 0.2s ease, border-color 0.2s ease;
-      background: rgba(57, 255, 20, 0.08);
+      background: rgba(217, 70, 255, 0.12);
     }
 
     .link-btn::after {
@@ -161,16 +161,16 @@
       position: absolute;
       inset: 0;
       border-radius: inherit;
-      box-shadow: 0 0 12px rgba(57, 255, 20, 0.3);
+      box-shadow: 0 0 12px rgba(217, 70, 255, 0.28);
       opacity: 0;
       transition: opacity 0.3s ease;
     }
 
     .link-btn:hover,
     .link-btn:focus {
-      border-color: rgba(0, 255, 204, 0.8);
+      border-color: rgba(255, 113, 211, 0.85);
       transform: translateY(-3px);
-      box-shadow: 0 12px 35px rgba(0, 255, 204, 0.22);
+      box-shadow: 0 12px 35px rgba(255, 113, 211, 0.3);
       outline: none;
     }
 
@@ -180,44 +180,44 @@
     }
 
     footer {
-      border-top: 1px solid rgba(57, 255, 20, 0.25);
+      border-top: 1px solid rgba(217, 70, 255, 0.25);
       padding-top: 1.5rem;
       text-align: center;
       font-size: 0.85rem;
-      color: rgba(217, 255, 231, 0.65);
+      color: rgba(241, 211, 255, 0.65);
     }
 
     @keyframes glow {
       0% {
         color: rgba(57, 255, 20, 1);
-        text-shadow: 0 0 12px rgba(57, 255, 20, 0.9), 0 0 30px rgba(57, 255, 20, 0.55);
+        text-shadow: 0 0 12px rgba(217, 70, 255, 0.9), 0 0 30px rgba(217, 70, 255, 0.45);
       }
       33% {
-        color: rgba(0, 255, 204, 1);
+        color: rgba(255, 113, 211, 1);
         text-shadow: 0 0 14px rgba(0, 255, 204, 0.9), 0 0 34px rgba(0, 255, 204, 0.55);
       }
       66% {
-        color: rgba(168, 255, 120, 1);
-        text-shadow: 0 0 12px rgba(168, 255, 120, 0.85), 0 0 28px rgba(168, 255, 120, 0.5);
+        color: rgba(157, 107, 255, 1);
+        text-shadow: 0 0 12px rgba(157, 107, 255, 0.85), 0 0 28px rgba(157, 107, 255, 0.45);
       }
       100% {
         color: rgba(57, 255, 20, 1);
-        text-shadow: 0 0 12px rgba(57, 255, 20, 0.9), 0 0 30px rgba(57, 255, 20, 0.55);
+        text-shadow: 0 0 12px rgba(217, 70, 255, 0.9), 0 0 30px rgba(217, 70, 255, 0.45);
       }
     }
 
     @keyframes appleGlow {
-      0% { color: #39ff14; }
-      25% { color: #0fffc1; }
-      50% { color: #9d6bff; }
+      0% { color: #d946ff; }
+      25% { color: #ff71d3; }
+      50% { color: #a855f7; }
       75% { color: #ff5f9a; }
-      100% { color: #39ff14; }
+      100% { color: #d946ff; }
     }
 
     @keyframes pulse {
       0%, 100% {
-        box-shadow: 0 0 20px rgba(57, 255, 20, 0.18);
-        border-color: rgba(57, 255, 20, 0.35);
+        box-shadow: 0 0 20px rgba(217, 70, 255, 0.2);
+        border-color: rgba(217, 70, 255, 0.35);
       }
       50% {
         box-shadow: 0 0 32px rgba(0, 255, 204, 0.25);
@@ -245,100 +245,23 @@
   <main>
     <header class="hero">
       <div class="ascii-wrap" role="img" aria-label="ASCII art of a retro Macintosh computer">
-        <pre class="ascii-art" aria-hidden="true">                                      .QLAmxmAALLLQ,
-                               ,LwmWWMM""7   CQQNNWMMq
-                        gQpmWWMFTT          `MMMWWWAmAWQ,,LQaawwMMMWwmmALQ2Q
-                       pMWWWMMEMWWMweaLQ,           ""F""MMT""^        ""T^TMW,
-                      OE    7TTTMWmMWWMMMM#mwmwaLQ                      ,awmMN
-                      qbawaQ,,       `""TMMWWWWXMqBMWWpmaLQ,       ,LAwWM"\  3C
-                      qM" ""VVWMWmmA,]         *""MPWWmWWMjTWe,aaWMM""       `b
-                      qp          7"TWNMWwwxLQ,         7"M, MM"`             W
-                      qC                   "TVVMWmmaaa,    w Ob               M`
-                      qb  W#MMmaQL,                "^T"MMQ # ~p               Jb
-                      qp qC #" ""TWMwmwAL,.              q # Gp                W
-                      d  gC M          ""VWMWwwaLL,      dC# Jp                #
-                      qb q,Db                  ^"VMMMm,  d # JC                g
-                      q~ d ym                        ^N  d # qb                q
-                      gC g q     q`                   MC q K uC                9
-                      q~ q q    gFq. w                Jt q @ qp                q
-                      q  q q   .M\M\W"                qb q p d                 d
-                      g  q #  qK\W p"                 qC 4 W gC                q
-                      q  d #  * W`W^                  qp # b d~                G
-                      B  q #   M` !                   d  @ M qC                q
-                      W  q @  W\                      q  # p d,                q
-                      #  @ # /^                       d  #`p d                 q
-                      #  g #                          q  #Jb d                 q
-                      #  q #                          q  E~M q                 q
-                      #  B K                          q  #Op q                 q
-                      #  @ E                          q  #qL d                 d
-                      W  # #                          q  #qb 9                 q
-                      W  @ #                          4  EqL @                 q
-                      K  # #                          #  bq= @                 q
-                      #  @ #                          W  Kdb #                 q
-                     .b  # 8                          #  bg  @                 q
-                     ~p  # #                          K OpgC #                 q
-                     `p  # *b                         8 qbq  W                 q
-                     Dp  W  MWwQ                      E Jpq  #                 q
-                     -p  3m,  ^*MMmQ,                 # qLq  #                 q
-                     Db   7MWwwuQ,7VTMMwaL,,          # dbq  8                 q
-                     -M        TTVmmwaa,CFVMNWwmwwmwxMM qpg  B                 3
-                     Db              ^"MMWwwa,     `TDE ubq  #                 q
-                     qb                    `"VMMmmmQ,wC dC#  W                 q
-                     qb    ,                      7*"^  qC#  E                 q
-                     gM  qMW                            d,8  #                 9
-                     qN  A #                            q #  p                 d
-                     qM  3mW          gmppQ,    \       qC#  p                 q
-                     dm   ""          q BMWMMmgq#WmWxq  q #  b                 q
-                     dC               9WMWMMMMNMM#MWMGp q #  W                 g
-                     db                 "*MMMWMMWw   Mb M p  b                 g
-                     q                        V*WWmwpVb q p  E                 q
-                     dQ                         "WNMWmM q b  p                 g
-                     4MMmAQ                          "  g`E  b                 q
-                     3p  7"MWax,                        gOE `E                 qMmq,
-                      BQ      *"MWwL,                   d b (b               Qpq 7"VMmmmQ
-                       VMWgQ.     7"MWWw,,              H7p  b            .pWMbq       "TWWL
-                          WTMWwxQ.     7TVMmaQ          #qL Jp          jaMWmWbg           "m
-                          #     "MWmaL,     `TWMwm,    q#~p  WQ       QwdWMMMM\#            Jb
-                          g         "TMMma,      "VMMmmm`OC  "N     QqMWMMBW`LW"             E
-                          B              7"NMwa.         q=   @   uMMqMMpM^LwM              WC
-                          3m.                 ""Mmea,    gGwM # qMGWWMWW`,wF              jWC
-              QQ           "TMwaQ                  "VMwmMM" @ W QMWMWM^.M"               QM`
-             qMMWWmppqj        "VWmmLL                 g    @ # dMMM`jpM"              `MC
-           LWMNqM QW"MMMpgy         TMmwA,             qW   # # WW",wF`                W^
-           pW^WNMwWLQp""MNMWmQQ,        ""WMwaQ      qMM    # # `.wM`                 Ob
-         qWWmqp qN`MMwwdQ WM"WWWmqgQ         "VMWaQ  q      # EjwM`                    AQ
-        gW" "QRwWQ W  #""WWmqM OKTMWMqpQj        7"MWWqMp   #QWM^                       "MwL,Q
-      `pMNmC,p^ WWWMmQb qM `NMWdp #"7WMMMMqqQ         WWMmmmWK"                            ^YMMWm,
-      qN  ""WWaQK qK""MMdp qC uW"MpLqp gKTNNMmWQQ,   \dMp ""                                    "Mw,
-    QWWwL,  gM"qWwWQ d" qMMMmaq  q""MMWM,Q# \MMMNMmqqgWWb                                         7W
-   yW" 7"Mmxd, #  WWWWm,p  WU"NMWdQ g` OMMMmdb q^7QMMMNMqQ                                         9
-  QMW    q#`"MWW,yM qM"MWMqE  #  BMMWp,#  WTTMw#L w  #WMMMWmQQ,                                    dC
- qW "MwL qC    (BWWaq. @ .W"WWWxQb  WVMMwmE  w"7"wWmp"MW  WMMWNWppQ                                #
-\pTMwAQ"MMwQ   qC  ""NMWuQb qM7QWMqQp qM `WWmW  gK QWqNmA,#  QMTMBMWWqL                           gC
-qy   ""mmaQ]NmwW       7"MMmdq #  WVMMmm dC QWWWC QbqMM 7MMw,@  qM"WWMMMp                        gm
-OMma.    7Mmwa2"WwmQ        ""MMaOC qt7MWWq q    LN AdC qM 7WMdLq JtWqbq#           ,QWmWWa,   [d"
-~MGQ"Mea,    ""MxaQ*MmaL        7"MmW  #` WMMqQ MM WW"VWqL qb  WMMpjMK qE         ,mMWQ.  "MWAgW`
- MQbNmQ2VMaQ,    "MWeQC"WWa,       .WMMW,qM  WMMp WMb  @YMWmm,gF WWWW dWE       gwM"  ^MWwWMW"Wp
-  "9mdCMvmQTMmmZ     TPmmLC*WwA,   W` pC""WmGQC wMMQMmqqC .#""WwwQ"#M"QWWC     .mMQ       DM",mFK
-     `"MwdQWwwGTWMwQ     *WMwQ7"Mmm# OP qM"DMmW`qM#  dMMxQp  W`QMmQK|MMM      W" TNwQ  QM",wW` p
-         "VmwQMMmaCTMmw.    7TWmaQ7MWMM,q  W`uMWmmWQ K  9WVWQA["ME# dWM      JMWx,  TMM`jmW`   p
-             ^"wwGTNeAT"Wwa,    `*Wwe2T"NwmE JyMM 7TTMqj#  ]MTWQ#W yMN^      q) 7MxQ  ,wM`   jqW
-                `"WmGQPmw2CMWwQ     7TMweQ""MwNqM     NMMMqW gM#Q"gMME       JMg   TMWM`   QqMR"
-                    "VMmGDNwa2yMmm.     "MWmq, JWwQ   #  (M qFgLM MM#         7WNp,     ,gMWM^
-                        "*mw2PMmAQ"MmQ,     "Pmaa["PMAW  q  *QFW qWW^           "FMmQLLqMM"
-                           `TMee2TMwCQPMmQ     `"Mem,7"MmWC Q#g"ymmM              "WWBWF`
-                               7"MmQTVme2TMmaQ     7"MmaQ""MWyC.MKR                  "
-                                   "MWe2VVWe2MWwL,     "VMwuaW #MW`
-                                      7TMWaQTWwdTVWwQ      TT gWMC
-                                          ^*MmaQ"MeGCMeaQ    qNM#
-                                              7PWxQ"MmmCyMwAwMK#`
-                                                 `"Mma,TMmw2LMgt
-                                                     7VMwQC"VQK
-                                                         7MMWW
+        <pre class="ascii-art" aria-hidden="true"> 
+db   db d888888b         d888888b Cb .88b  d88.               
+88   88   `88'             `88'   `D 88'YbdP`88               
+88ooo88    88               88     ' 88  88  88               
+88~~~88    88               88       88  88  88               
+88   88   .88.   db        .88.      88  88  88               
+YP   YP Y888888P V8      Y888888P    YP  YP  YP               
+                  P                                           
+                                                              
+d8888b.  .d88b.  .88b  d88. d888888b d8b   db d888888b db   dD
+88  `8D .8P  Y8. 88'YbdP`88   `88'   888o  88   `88'   88 ,8P'
+88   88 88    88 88  88  88    88    88V8o 88    88    88,8P  
+88   88 88    88 88  88  88    88    88 V8o88    88    88`8b  
+88  .8D `8b  d8' 88  88  88   .88.   88  V888   .88.   88 `88.
+Y8888D'  `Y88P'  YP  YP  YP Y888888P VP   V8P Y888888P YP   YD
 </pre>
-        <span class="apple-badge" aria-hidden="true">[==]</span>
       </div>
-      <h1>onesadlittleboy</h1>
       <p>onesadlittleboy &mdash; coding, gaming, tinkering.</p>
     </header>
 
